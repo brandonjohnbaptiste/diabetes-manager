@@ -3,7 +3,7 @@
 import tkinter as tk
 
 HEIGHT = 800
-WIDTH = 600
+WIDTH = 1200
 FONT = ('Arial', 20, 'normal')
 FONT_BOLD = ('Arial', 20, 'bold')
 
@@ -16,8 +16,8 @@ record_btn = tk.Button(root, text='Record')
 trend_btn = tk.Button(root, text='Trends')
 
 title_label.grid(column=1, row=0, columnspan=2)
-record_btn.grid(column=0, row=1)
-trend_btn.grid(column=3, row=1)
+record_btn.grid(column=1, row=1)
+trend_btn.grid(column=2, row=1)
 
 
 root.mainloop()
